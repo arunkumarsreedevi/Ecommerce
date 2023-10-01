@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="addcart.aspx" />
     <Content Include="addproduct.aspx" />
     <Content Include="adminHome.aspx" />
     <Content Include="Admin_Reg.aspx" />
@@ -164,8 +165,16 @@
     <Content Include="user_home.aspx" />
     <Content Include="vecteezy_add-to-cart-icon-add-to-card-button-on-transparent-background_19787040_550.png" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addcart.aspx.cs">
+      <DependentUpon>addcart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addcart.aspx.designer.cs">
+      <DependentUpon>addcart.aspx</DependentUpon>
+    </Compile>
     <Compile Include="addproduct.aspx.cs">
       <DependentUpon>addproduct.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -258,6 +267,13 @@
     </Compile>
     <Compile Include="user_home.aspx.designer.cs">
       <DependentUpon>user_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
